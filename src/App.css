@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 .container {
     max-width: 1000px;
     padding: 20px;
@@ -75,82 +75,4 @@ button:hover {
 .fade-in {
     opacity: 1;
     transform: translateY(0);
-=======
-.container {
-    max-width: 1000px;
-    padding: 20px;
-    margin: 0 auto;
-
-    text-align: center;
-
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-h1 {
-    font-size: 3rem;
-    color: antiquewhite
-}
-
-.input-wrapper {
-    width: 100%;
-}
-
-input {
-    padding: 10px;
-    margin-top: 20px;
-
-    border: none;
-    border-radius: 15px 0 0 15px;
-
-    width: 60%;
-    max-width: 300px;
-
-    outline: none;
-}
-
-button {
-    color: antiquewhite;
-
-    font-weight: bold;
-
-
-    background-color: #ffa500;
-    padding: 10px;
-
-    border: none;
-    border-radius: 0 15px 15px 0;
-    outline: none;
-
-    width: 120px;
-
-    cursor: pointer;
-}
-
-button:hover {
-    background-color: #c27f02;
-}
-
-.weather-results {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    transition: opacity 2.5s cubic-bezier(0.25, 0.46, 0.45, 0.94),
-        transform 2.5s cubic-bezier(0.25, 0.46, 0.45, 0.94);
-    min-height: 200px;
-
-}
-
-
-.fade-out {
-    opacity: 0;
-    transform: translateY(30px);
-    pointer-events: none;
-}
-
-.fade-in {
-    opacity: 1;
-    transform: translateY(0);
->>>>>>> 9a5c62f87f94b7038909be2a044b97ce4336adc5
 }
