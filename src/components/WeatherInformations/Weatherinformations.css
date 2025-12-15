@@ -1,0 +1,43 @@
+.weatherContainer {
+    background-color: rgba(0, 255, 255, 0.575);
+    box-shadow: -1.5px 4px 8px rgb(2, 131, 170);
+
+    border-radius: 8px;
+
+    padding: 20px;
+
+    margin: 20px 0;
+
+    width: 500px;
+    justify-content: center;
+
+}
+
+
+h2 {
+    font-size: 2rem;
+}
+
+.weatherInfo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.temperature {
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.description {
+    text-transform: capitalize;
+    font-size: 1.3rem;
+    margin-bottom: 10px;
+}
+
+.details {
+    font-size: .8rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
